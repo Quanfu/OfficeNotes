@@ -1,0 +1,16 @@
+1、返加包含值12的单元格数量 =COUNTIF（DATA,12） 
+2、返回包含负值的单元格数量 =COUNTIF（DATA，"<0"）  
+3、返回不等于0的单元格数量 =COUNTIF（DATA，"<>0"） 
+4、返回大于5的单元格数量 =COUNTIF（DATA，">5"）  
+5、返回等于单元格A1中内容的单元格数量 =COUNTIF（DATA，A1）  
+6、返回大于单元格A1中内容的单元格数量 =COUNTIF（DATA，“>”&A1）  
+7、返回包含文本内容的单元格数量 =COUNTIF（DATA，“*”）  
+8、返回包含三个字符内容的单元格数量 =COUNITF（DATA，“???”）  
+9、返回包含单词"GOOD"(不分大小写)内容的单元格数量 =COUNTIF（DATA，“GOOD”）  
+10、返回在文本中任何位置包含单词"GOOD"字符内容的单元格数量 =COUNTIF（DATA，“*GOOD*”）  
+11、返回包含以单词"AB"(不分大小写)开头内容的单元格数量 =COUNTIF（DATA，“AB*”）  
+12、返回包含当前日期的单元格数量 =COUNTIF（DATA，TODAY()）  
+13、返回大于平均值的单元格数量  =COUNTIF（DATA，">"&AVERAGE(DATA))  
+14、返回平均值上面超过三个标准误差的值的单元格数量 =COUNTIF（DATA，“>"&AVERAGE(DATA)+STDEV(DATA)*3) 
+15、返回包含值为3 或-3的单元格数量  =COUNTIF（DATA，3）+COUNIF（DATA，-3）
+16、返回包含值;逻辑值为TRUE的单元格数量 =COUNTIF（DATA，TRUE
