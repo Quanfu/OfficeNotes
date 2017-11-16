@@ -185,3 +185,12 @@ SUMPRODUCT是这么解决这个问题的，D2输入公式向下复制：
 说一下第一部分练习题的答案：
 
 最后，请思考以下两个问题：
+### 第一个问题：
+
+=SUMPRODUCT((MONTH(A2:A13)=6)*(B2:B13="财务部")*D2:D13)，这个公式里，SUMPRODUCT函数有几个参数？
+
+=SUMPRODUCT((MONTH(A2:A13)=6)*(B2:B13="财务部")，D2:D13)，这个公式里，SUMPRODUCT函数又有几个参数？
+
+### 第二个问题：
+
+SUMPRODUCT为什么比SUMIF/COUNTIF计算速度慢？
