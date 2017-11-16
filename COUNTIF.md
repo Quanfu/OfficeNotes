@@ -1,3 +1,5 @@
+## COUNTIF
+
 1、返加包含值12的单元格数量 
 `=COUNTIF（DATA,12）` 
 
@@ -32,4 +34,8 @@
 15、返回包含值为3 或-3的单元格数量  `=COUNTIF（DATA，3）+COUNIF（DATA，-3）`
 
 16、返回包含值;逻辑值为TRUE的单元格数量 `=COUNTIF（DATA，TRUE)`
+
+
+## COUNTIFS
+`COUNTIFS(C2:C22,">=80",D2:D22,">=80")`其实与countif函数基本差不多，函数里多了一个数据列，多了一个条件，表示同时满足两个条件的人数。
 
